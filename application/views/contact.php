@@ -38,9 +38,9 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact </a></li>
+                        <li class="active"><a href="<?php echo site_url()?>/home">Home</a></li>
+                        <li><a href="<?php echo site_url()?>/About">About</a></li>
+                        <li><a href="<?php echo site_url()?>/Contact">Contact </a></li>
                     </ul>
                     
                     <ul class="nav navbar-nav navbar-right">
@@ -62,9 +62,7 @@
                 </div>
                 
                 
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat minima harum, illo explicabo molestias est reprehenderit dignissimos sequi molestiae numquam reiciendis corporis iste officiis quas, vero voluptate rem, deleniti iure!
-                </div>
+               
                 
                 
             </div>
