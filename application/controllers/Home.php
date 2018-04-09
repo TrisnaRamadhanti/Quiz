@@ -6,7 +6,11 @@ class Home extends CI_Controller
 
     public function index()
     {
-        $data['nama'] = "Trisna Virliana Ramadhanti";
+        $data = array (
+                'nama' => "Trisna Virliana Ramadhanti",
+                'alamat' => "Politeknik Negeri Malang",
+                'email' => "trisnaramadhanti@gmail.com"
+                );
         $this->load->view('home', $data);
         
     }
