@@ -7,6 +7,8 @@
         public function     
         {
             
+            this->load->view('contact');
+            
         }
     
     }
