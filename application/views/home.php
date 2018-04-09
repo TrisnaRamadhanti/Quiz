@@ -38,7 +38,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="<?php echo site_url()?>/home">Home</a></li>
+                        <li class="active"><a href="<?php echo site_url()?>/Home">Home</a></li>
                         <li><a href="<?php echo site_url()?>/About">About</a></li>
                         <li><a href="<?php echo site_url()?>/Contact">Contact </a></li>
                     </ul>
@@ -60,7 +60,7 @@
                 
                 <div class="jumbotron">
                     <div class="container">
-                        <h1>Hello, world!</h1>
+                        <h1><?php echo $nama ?></h1>
                         <p>Contents ...</p>
                         <p>
                             <a class="btn btn-primary btn-lg">Learn more</a>
@@ -68,6 +68,23 @@
                     </div>
                 </div>
                 
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    
+                    <table class="table table-striped table table-hover">
+                        <tbody>
+                            <tr>
+                                <td><?php echo $nama ?> </td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $alamat ?></td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $email ?></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                </div>
                 
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, minima odio cum inventore accusantium odit necessitatibus earum eaque magni amet est voluptatem deleniti ipsum. Excepturi ad laboriosam animi facere dignissimos.
