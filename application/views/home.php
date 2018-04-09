@@ -87,13 +87,26 @@
                 </div>
                 
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, minima odio cum inventore accusantium odit necessitatibus earum eaque magni amet est voluptatem deleniti ipsum. Excepturi ad laboriosam animi facere dignissimos.
+                    
+                    <table class="table table-striped table-hover">
+                        <tbody>
+                            <?php foreach ($tugas as $key) 
+                            { ?>
+                                <tr>
+                                    <td><?php echo $key; ?> </td>
+                                 </tr>
+                            <?php } ?>
+                            <tr>
+                                <td></td>
+                            </tr>
+                        
+                        </tbody>
+                    </table>
+                    
                 </div>
                 
                 
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat minima harum, illo explicabo molestias est reprehenderit dignissimos sequi molestiae numquam reiciendis corporis iste officiis quas, vero voluptate rem, deleniti iure!
-                </div>
+                
                 
                 
             </div>
