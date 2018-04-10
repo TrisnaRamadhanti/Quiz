@@ -38,9 +38,10 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="<?php echo site_url()?>/Home">Home</a></li>
-                        <li><a href="<?php echo site_url()?>/About">About</a></li>
-                        <li><a href="<?php echo site_url()?>/Contact">Contact </a></li>
+                        <li class="active"><a href="<?php echo site_url()?>/home">Home</a></li>
+                        <li><a href="<?php echo site_url()?>/about">About</a></li>
+                        <li><a href="<?php echo site_url()?>/contact">Contact </a></li>
+                        <li><a href="<?php echo site_url()?>/news"> Berita </a></li>
                     </ul>
                     
                     <ul class="nav navbar-nav navbar-right">
@@ -115,8 +116,8 @@
         
 
         <!-- jQuery -->
-        <script src=<?php echo base_url('assets/js/jquery-3.3.1.min.js'); ?>" > </script>
+        <script src="<?php echo base_url('assets/js/jquery-3.3.1.min.js'); ?>" > </script>
         <!-- Bootstrap JavaScript -->
-        <script src=<?php echo base_url('assets/css/bootstrap.min.js'); ?>"></script>
+        <script src="<?php echo base_url('assets/css/bootstrap.min.js'); ?>"></script>
     </body>
 </html>

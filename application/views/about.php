@@ -8,7 +8,7 @@
         <title>Title Page</title>
 
         <!-- Bootstrap CSS -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,6 +41,7 @@
                         <li class="active"><a href="<?php echo site_url()?>/home">Home</a></li>
                         <li><a href="<?php echo site_url()?>/About">About</a></li>
                         <li><a href="<?php echo site_url()?>/Contact">Contact </a></li>
+                        <li><a href="<?php echo site_url()?>/News"> Berita </a></li>
                     </ul>
                     
                     <ul class="nav navbar-nav navbar-right">
@@ -67,9 +68,8 @@
         </div>
         
 
-        <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="<?php echo base_url('assets/js/jquery-3.3.1.min.js'); ?>" > </script>
         <!-- Bootstrap JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="<?php echo base_url('assets/css/bootstrap.min.js'); ?>"></script>
     </body>
 </html>
